@@ -1,0 +1,54 @@
+.target {
+  background: blue;
+  width: 500px;
+  height: 200px;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+.target>label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+.block{
+  display: inline-block;
+  background: #040458;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-inline-end:20px;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+
+.block>label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+}
+
+.contact{
+  margin-top: 20px;
+  background: blue;
+  width: 500px;
+  height: 400px;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+.contact>label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+.container{
+  margin-left: 500px;
+}
