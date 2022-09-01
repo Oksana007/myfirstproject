@@ -1,26 +1,23 @@
 .list-container {
-    padding: 20px;
-    margin: auto;
-    display: block;
+  padding: 20px;
+  margin: auto;
+  display: block;
 }
 
 .list-container-item {
-    border: 1px solid gray;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    margin: 10px;
-    width: 400px;
-    flex-direction: row-reverse;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
 }
 .item-button {
-    cursor: pointer;
-    width: fit-content;
-    padding: 5px 10px;
-    border: 1px solid black;
-    border-radius: 5px;
-    justify-content: center;
-    display: flex;
+  cursor: pointer;
+  width: 100px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 150px;
+  display: flex;
 }
